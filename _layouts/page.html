@@ -1,0 +1,42 @@
+---
+layout: default
+---
+
+<div class="separator-image bg02">
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-8">
+            {{ content }}
+        </div>
+        <div class="col-sm-4">
+            <div class="row">
+                <div class="col-xs-4 icon">
+                    <i class="fa"><img src="{{ site.url }}/assets/img/coin.png" alt=""></i>
+                </div>
+                <div class="col-xs-8 icon-content">
+                    <p class="heading-title2">
+                        <a href="{{ '/form.html' | prepend: site.url }}"> Запрос стоимости </a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="divider striptags"></div>
+            <div class="small-icon border clearfix">
+                <div class="col-xs-4 icon">
+                    <i class="fa"><img src="{{ site.url }}/assets/img/map.png" alt=""></i>
+                </div>
+                <div class="col-xs-8 icon-content">
+                    <p class="heading-title">ЦЕНТРАЛЬНЫЙ ОФИС</p>
+                    <p>
+                        {{ site.address }}<br>
+                        тел.: {{ site.site_phone }} <br>
+                        email: <a href="mailto:{{ site.site_email }}">{{ site.site_email }}</a>
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>

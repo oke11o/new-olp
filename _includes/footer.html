@@ -1,0 +1,21 @@
+
+<footer id="footer">
+    <div class="container">
+        <div class="row">
+            <div class="pull-left">
+                <p>© Optimal Logistic Price</p>
+            </div>
+            <div class="pull-right">
+                <ul class="breadcrumb">
+                    {% assign pages_list = site.pages | sort:"menusort" %}
+                    {% assign group = 'bottommenu' %}
+                    {% include menu_items.snippet.html %}
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<div id="mobile-menu">
+    <span class="menu-content"></span>
+</div>
