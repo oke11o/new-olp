@@ -7,19 +7,22 @@
 $blue-bg-color: #31A3DD;
 
 body {
-  padding-top: 70px;
+  padding-top: 50px;
+  background-color: $blue-bg-color;
+}
+
+.content-main-wrap {
+  background-color: white;
 }
 
 footer {
-  position: absolute;
-  bottom: 0;
   width: 100%;
-  height: 100px;
-  padding: 15px 0 10px;
+  padding: 15px 0;
   background-color: $blue-bg-color;
   color: white;
   .breadcrumb {
     background-color: $blue-bg-color;
+    margin: 0px;
     a {
       color: white;
     }
