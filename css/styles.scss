@@ -10,6 +10,9 @@ body {
   padding-top: 50px;
   background-color: $blue-bg-color;
 }
+img {
+  max-width: 100%;
+}
 
 .content-main-wrap {
   background-color: white;
