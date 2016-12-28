@@ -35,6 +35,12 @@ footer {
       margin-top: 6px;
     }
   }
+  .footer-left {
+    width: 160px;
+  }
+  .footer-right {
+    margin-left: 160px;
+  }
 }
 
 .header-logo {
@@ -64,5 +70,26 @@ footer {
   }
   .bg06 {
     background-image: url(../assets/img/bg/bg06.png);
+  }
+}
+
+.right-sidebar {
+  margin-top: 20px;
+  a.button-block {
+    padding: 30px 20px 32px 85px;
+    margin-bottom: 30px;
+    border: solid 2px #78AA65;
+    background-image: url(../assets/img/coin.png);
+    background-repeat: no-repeat;
+    background-position: 10px 10px;
+    text-align: center;
+    display: block;
+    font-size: 20px;
+    color: #5da256;
+    &:hover {
+      border: solid 2px $blue-bg-color;
+      color: $blue-bg-color;
+      text-decoration: none;
+    }
   }
 }

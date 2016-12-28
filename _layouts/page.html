@@ -11,17 +11,8 @@ layout: default
             <h1>{{ page.title }}</h1>
             {{ content }}
         </div>
-        <div class="col-sm-4">
-            <div class="row">
-                <div class="col-xs-4 icon">
-                    <i class="fa"><img src="{{ site.url }}/assets/img/coin.png" alt=""></i>
-                </div>
-                <div class="col-xs-8 icon-content">
-                    <p class="heading-title2">
-                        <a href="{{ '/form.html' | prepend: site.url }}"> Запрос стоимости </a>
-                    </p>
-                </div>
-            </div>
+        <div class="col-sm-4 right-sidebar">
+            <a class="button-block" href="{{ '/form.html' | prepend: site.url }}"> Запрос стоимости </a>
 
             <div class="divider striptags"></div>
             <div class="small-icon border clearfix">
@@ -29,11 +20,18 @@ layout: default
                     <i class="fa"><img src="{{ site.url }}/assets/img/map.png" alt=""></i>
                 </div>
                 <div class="col-xs-8 icon-content">
-                    <p class="heading-title">ЦЕНТРАЛЬНЫЙ ОФИС</p>
+                    <h5 class="heading-title">Центральный офис</h5>
                     <p>
                         {{ site.address }}<br>
-                        тел.: {{ site.site_phone }} <br>
+                        тел.: {{ site.site_phone }} <img src="{{ site.url }}/assets/img/viber-whatsapp.jpg" alt="Viber Whatsapp" height="25"><br>
                         email: <a href="mailto:{{ site.site_email }}">{{ site.site_email }}</a>
+                    </p>
+
+                    <h5>Партнерская сеть</h5>
+                    <p>Россия &#8212; г. Владивосток, г. Находка<br/>
+                        Латвия &#8212; г. Рига<br/>
+                        Китай &#8212; г. Пекин, Шанхай, Гуанчжоу<br/>
+                        Южная Корея &#8212; г. Пусан
                     </p>
                 </div>
 

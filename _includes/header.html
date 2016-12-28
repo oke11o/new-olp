@@ -18,6 +18,11 @@
                 {% assign pages_list = site.pages | sort:"menusort" %}
                 {% assign group = 'topmenu' %}
                 {% include menu_items.snippet.html %}
+                <li>
+                    <a href="{{ site.url }}/sitemap.html">
+                        <span class="glyphicon glyphicon-gift" aria-hidden="true"></span>
+                    </a>
+                </li>
             </ul>
         </div><!--/.nav-collapse -->
     </div>
