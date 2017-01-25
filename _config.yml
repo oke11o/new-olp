@@ -7,8 +7,8 @@ description: > # this means to ignore newlines until "baseurl:"
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-upload_url: "/upload" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://oke11o.github.io/new-olp" # the base hostname & protocol for your site, e.g. http://example.com
+upload_url: "https://oke11o.github.io/new-olp/upload" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: olp
 github_username:  olp
 
