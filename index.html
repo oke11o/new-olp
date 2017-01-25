@@ -2,9 +2,42 @@
 layout: home
 ---
 
-
-
-<ul>
-    <li>asdf</li>
-    <li>zxcv</li>
-</ul>
+<div id="slides" style="height:400px;">
+    <ul class="slides-container">
+        <li>
+            <img src="{{ '/upload/homepage/all-bg.jpg' | prepend: site.baseurl | prepend: site.url }}" alt="">
+            <div class="container">
+                Slide one
+            </div>
+        </li>
+        <li>
+            <img src="{{ '/upload/homepage/ocean.jpg' | prepend: site.baseurl | prepend: site.url }}" alt="">
+            <div class="container">
+                Slide two
+            </div>
+        </li>
+        <li>
+            <img src="{{ '/upload/homepage/slide-2.jpg' | prepend: site.baseurl | prepend: site.url }}" alt="">
+            <div class="container">
+                Slide three
+            </div>
+        </li>
+        <li>
+            <img src="{{ '/upload/homepage/car-bg.jpg' | prepend: site.baseurl | prepend: site.url }}" alt="">
+            <div class="container">
+                Slide three
+            </div>
+        </li>
+    </ul>
+    <nav class="slides-navigation">
+        <a href="#" class="next">Next</a>
+        <a href="#" class="prev">Previous</a>
+    </nav>
+</div>
+<script>
+    $(function () {
+        $('#slides').superslides({
+            inherit_height_from:'#slides'
+        });
+    });
+</script>
